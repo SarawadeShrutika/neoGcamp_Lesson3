@@ -6,9 +6,16 @@
 body{
 font-family: 'Noto Sans', sans-serif;
 background-color: #f7fee7;
+margin:0px;
 }
 hr{
-    margin: 2rem 0rem;
+    border:none;
+    border-top:1px solid grey;
+    color:#fff;
+    background-color:#fff;
+    height:1px;
+    width:50%;
+    
 }
 
 /**Containers**/
@@ -22,20 +29,16 @@ hr{
 }
 
 /**Links**/
-.link{
+.Links{
+    text-align: center;
+}
+.primary_link,.secondary_link{
     text-decoration: none;
     padding: 0.5rem 1rem;
-}
-.primary_link{
     text-decoration: none;
     background-color: #30D5C8 ;
     border-radius: 5rem;
-}
-
-.secondary_link{
-    text-decoration: none;
-    background-color: #30D5C8 ;
-    border-radius: 5rem;
+    color:white;
 }
 
 
@@ -66,7 +69,7 @@ hr{
  }
  .nav_link{
     text-decoration: none;
-    color: #155e75;
+    color: #4b5563;
     font-weight: bold;
  }
 .header{
@@ -77,20 +80,22 @@ hr{
     max-width: 300px;
     display:block;
     margin:auto;
+    padding: 0.5rem;
 }
 
 .header_inside{
-   padding-top: 1rem;
    text-align: center;
+   margin-top: 0px;
+   padding-top: 0.5rem;
    
 }
 
  .header_inside .heading-inverted{
-    color:#164e63;
+    color:#4b5563;
 }
 
 .section_ow{
-    background-color: #e7e5e4;
+    background-color: #f0f9ff;
     padding: 1rem;
 }
 
@@ -100,6 +105,15 @@ padding-bottom: 2rem;
 padding-left: 1rem;
 }
 
- .h2{
+ .h2,.h1{
     text-align: center;
 }
+
+.footer_links{
+    text-align: center;
+    text-decoration: none;
+    background-color: #d4d4d8;
+    border-bottom-right-radius: 3rem;
+   padding-bottom: 0.5rem;
+}
+
