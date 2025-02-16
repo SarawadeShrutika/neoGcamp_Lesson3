@@ -7,14 +7,14 @@
 }
 body{
 font-family: 'Poppins', sans-serif;
-background-color: #f7fee7;
+background-color: white;
 margin:0px;
 }
 hr{
     border:none;
     border-top:1px solid grey;
     color:#fff;
-    background-color:#fff;
+    background-color:white;
     height:1px;
     width:50%;
     
@@ -23,6 +23,7 @@ hr{
 /**Containers**/
 .container{
     padding-left: 0rem 1rem;
+    text-align: center;
 }
 
 .container-center{
@@ -75,8 +76,7 @@ hr{
     font-weight: bold;
  }
 .header{
-    padding: 2rem;
-    background-color:#f0f9ff;
+    background-color:white;
     font-family: 'Cinzel', serif;
 }
 
@@ -98,12 +98,11 @@ hr{
 }
 
 .section_ow{
-    background-color: #f0f9ff;
+    background-color: white;
     padding: 1rem;
 }
 
 .section_white{
-padding-top: 0.5rem;
 padding-bottom: 2rem;
 padding-left: 1rem;
 }
@@ -116,7 +115,7 @@ padding-left: 1rem;
 .footer_links{
     text-align: center;
     text-decoration: none;
-    background-color: #d4d4d8;
+    background-color: white;
     border-bottom-right-radius: 3rem;
    padding-bottom: 0.5rem;
 }
